@@ -1,0 +1,39 @@
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for each FAQ item */
+.faq-item {
+  margin-bottom: 20px;
+}
+
+/* Styles for question headings */
+.faq-item h2 {
+  margin-bottom: 5px;
+}
+
+/* Styles for answer paragraphs */
+.faq-item p {
+  margin-top: 5px;
+}
+.btn {
+  color: white;
+  background-color: blue;
+}
+
+@keyframes moveInOut {
+  0% { transform: translateX(-100%); opacity: 0; }
+  50% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+h1 {
+  animation: moveInOut 15s ease-in-out infinite; /* Adjust duration, timing function, and iteration as needed */
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+P {
+  font-size: 20px;
+}
